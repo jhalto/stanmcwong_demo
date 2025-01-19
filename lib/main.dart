@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:stanmcwong_demo/bottom_nav_bar.dart';
+import 'package:stanmcwong_demo/custom_nav_bar.dart';
+import 'package:stanmcwong_demo/google_nav_bar.dart';
 import 'package:stanmcwong_demo/home.dart';
 import 'package:stanmcwong_demo/search_demo.dart';
 
@@ -33,7 +36,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Home(),
+      home: GoogleNavBarDemo(),
     );
   }
 }
